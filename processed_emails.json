@@ -1,0 +1,352 @@
+[
+  {
+    "from": "support@trustedbank.com",
+    "subject": "Your account security has been updated",
+    "body": "Dear customer, we have recently updated our security protocols to ensure your account remains safe. Please review the changes and contact us if you notice any unusual activity.\n\nThank you for trusting us with your financial security. If you did not initiate this change, please secure your account immediately.",
+    "summary": "Trusted Bank has updated security protocols and is notifying customers to review changes, report unusual activity, and secure their account if they didn't initiate the change.",
+    "category": "Security Update"
+  },
+  {
+    "from": "no-reply@netflixsubscription.com",
+    "subject": "Your subscription payment failed",
+    "body": "We were unable to process your last payment for your Netflix subscription. Please update your payment method to avoid service interruption.\n\nIf you believe this is an error, you can ignore this message or contact customer support for assistance.",
+    "summary": "Your Netflix subscription payment failed, and you need to update your payment method to avoid service interruption.",
+    "category": "Billing Alert"
+  },
+  {
+    "from": "billing@premiumsoftware.com",
+    "subject": "Invoice for your recent purchase",
+    "body": "Thank you for your recent purchase! Your invoice is attached for your records. Please ensure the payment is processed within the next 5 business days.\n\nIf you have any questions regarding your invoice, feel free to reply to this email.",
+    "summary": "This email provides an invoice for a recent purchase from Premium Software and requests payment within 5 business days.",
+    "category": "Invoice"
+  },
+  {
+    "from": "noreply@socialnetwork.site",
+    "subject": "New login detected from a different device",
+    "body": "We noticed a new login to your account from an unrecognized device. If this was you, no further action is needed.\n\nIf you did not authorize this login, please secure your account immediately by changing your password.",
+    "summary": "The email notifies you of a new login from an unrecognized device and advises changing your password if you didn't authorize it.",
+    "category": "Security Alert"
+  },
+  {
+    "from": "team@onlinegamingplatform.com",
+    "subject": "Your gaming rewards are about to expire",
+    "body": "Your accumulated gaming rewards will expire in 7 days. Log in to claim them before they're gone!\n\nDon't miss out on exclusive in-game items and bonuses. Visit our platform now to redeem your rewards.",
+    "summary": "Your accumulated gaming rewards will expire in 7 days, so log in to the platform to claim them.",
+    "category": "Gaming Rewards"
+  },
+  {
+    "from": "support@cloudstorage.com",
+    "subject": "Your storage is almost full",
+    "body": "Your cloud storage is currently at 90% capacity. Upgrade now to avoid service interruptions and keep your files safe.\n\nWe offer flexible plans to suit your needs. Click below to explore your options.",
+    "summary": "Your cloud storage is 90% full, and you should upgrade now to avoid service interruptions and keep your files safe.",
+    "category": "Storage Alert"
+  },
+  {
+    "from": "hello@fitnessapp.com",
+    "subject": "New workout plan tailored for you",
+    "body": "We've created a personalized workout plan based on your recent activity. Check it out and start your fitness journey today!\n\nStay motivated and track your progress with our advanced analytics.",
+    "summary": "The fitness app has created a personalized workout plan for you based on your recent activity and encourages you to use it and track progress.",
+    "category": "Fitness"
+  },
+  {
+    "from": "no-reply@traveldeals.com",
+    "subject": "Exclusive flight discounts just for you",
+    "body": "As a valued member, we're offering you exclusive flight discounts to your favorite destinations. Book now before the offer expires!\n\nPack your bags and get ready for an unforgettable adventure.",
+    "summary": "An email from Travel Deals offers exclusive flight discounts to valued members and urges them to book before the offer expires.",
+    "category": "Travel Deals"
+  },
+  {
+    "from": "support@smart-home.com",
+    "subject": "Firmware update available for your device",
+    "body": "A new firmware update is available for your smart home device. Update now to enjoy improved performance and new features.\n\nEnsure your device is connected to Wi-Fi during the update process.",
+    "summary": "A new firmware update is available for your smart home device offering improved performance and new features, requiring a Wi-Fi connection to update.",
+    "category": "Update"
+  },
+  {
+    "from": "newsletter@technews.org",
+    "subject": "This week's top tech stories you shouldn't miss",
+    "body": "Stay updated with the latest in technology. Here are the top stories from this week that you might find interesting.\n\nFrom AI advancements to new gadget releases, we've got you covered.",
+    "summary": "This weekly newsletter from technews.org highlights the past week's top technology stories, including AI and new gadget releases.",
+    "category": "Tech News"
+  },
+  {
+    "from": "orders@onlinestore.com",
+    "subject": "Your order has been shipped",
+    "body": "Great news! Your recent order has been shipped and is on its way to you. Track your package using the link below.\n\nThank you for shopping with us. We hope you enjoy your purchase!",
+    "summary": "This email confirms that your order has been shipped and is on its way, providing a tracking link.",
+    "category": "Shipping Notification"
+  },
+  {
+    "from": "support@musicstreaming.com",
+    "subject": "New playlist curated based on your taste",
+    "body": "We've created a new playlist just for you, featuring songs we think you'll love. Start listening now!\n\nDiscover new music tailored to your preferences every week.",
+    "summary": "MusicStreaming.com sent an email announcing a new personalized playlist based on your taste and promoting weekly tailored music discovery.",
+    "category": "Playlist"
+  },
+  {
+    "from": "no-reply@jobportal.com",
+    "subject": "New job opportunities matching your profile",
+    "body": "We found several job openings that match your skills and experience. Apply now to take the next step in your career.\n\nDon't miss out on these exciting opportunities tailored just for you.",
+    "summary": "The email notifies you about new job openings matching your skills and encourages you to apply.",
+    "category": "Jobs"
+  },
+  {
+    "from": "billing@webhosting.com",
+    "subject": "Your hosting plan renewal is due soon",
+    "body": "Your web hosting plan is set to renew automatically in 10 days. Review your plan details and payment method to ensure uninterrupted service.\n\nIf you wish to make any changes, please log in to your account.",
+    "summary": "This email is a reminder that your web hosting plan is set to automatically renew in 10 days, prompting you to review your details or log in to make changes.",
+    "category": "Renewal"
+  },
+  {
+    "from": "support@cryptowallet.com",
+    "subject": "Important security alert for your wallet",
+    "body": "We detected an unusual login attempt on your crypto wallet. Secure your account immediately by changing your password.\n\nIf this was you, no further action is required. Stay safe!",
+    "summary": "This email alerts you to an unusual login attempt on your crypto wallet and advises changing your password for security unless it was you.",
+    "category": "Security Alert"
+  },
+  {
+    "from": "team@onlinelearning.com",
+    "subject": "New course available in your preferred category",
+    "body": "We've added a new course that aligns with your interests. Enroll now to start learning at your own pace.\n\nExpand your knowledge with our expert-led courses today.",
+    "summary": "This email from onlinelearning.com announces a new course available in your preferred category and encourages you to enroll.",
+    "category": "Courses"
+  },
+  {
+    "from": "no-reply@healthinsurance.com",
+    "subject": "Your policy documents are ready for download",
+    "body": "Your health insurance policy documents are now available. Download them for your records and review the coverage details.\n\nIf you have any questions, our customer support team is here to help.",
+    "summary": "Your health insurance policy documents are available for download and review.",
+    "category": "Policy"
+  },
+  {
+    "from": "support@smartwatch.com",
+    "subject": "New features unlocked in your latest update",
+    "body": "Your recent smartwatch update includes exciting new features. Explore them now to enhance your experience.\n\nFrom fitness tracking to notifications, make the most of your device.",
+    "summary": "Your recent smartwatch update includes exciting new features like fitness tracking and notifications that you should explore.",
+    "category": "Update"
+  },
+  {
+    "from": "newsletter@investing.com",
+    "subject": "Market trends and investment opportunities this week",
+    "body": "Stay ahead with the latest market trends and potential investment opportunities. Here's what you need to know this week.\n\nMake informed decisions with our expert analysis.",
+    "summary": "This email from an investment newsletter highlights the latest market trends and potential investment opportunities for the week, based on expert analysis.",
+    "category": "Investing"
+  },
+  {
+    "from": "no-reply@fooddelivery.com",
+    "subject": "Special discount on your next order",
+    "body": "Enjoy 20% off your next food delivery order. Use the promo code before it expires!\n\nTreat yourself to delicious meals from your favorite restaurants.",
+    "summary": "The email offers a 20% discount on your next food delivery order using an expiring promo code.",
+    "category": "Discount"
+  },
+  {
+    "from": "support@passwordmanager.com",
+    "subject": "Reminder: Secure your passwords regularly",
+    "body": "It's been a while since you last updated your passwords. For better security, consider changing them soon.\n\nUse our built-in password generator for strong and unique passwords.",
+    "summary": "This email from passwordmanager.com reminds you to update your passwords for better security and suggests using their built-in generator.",
+    "category": "Security Reminder"
+  },
+  {
+    "from": "team@onlineauction.com",
+    "subject": "You've been outbid on your favorite item",
+    "body": "Someone just placed a higher bid on the item you're watching. Don't miss out\u00e2\u20ac\u201dplace your counterbid now!\n\nHurry, the auction is ending soon.",
+    "summary": "This email notifies you that you have been outbid on an item you are watching and urges you to place a higher bid before the auction ends.",
+    "category": "Outbid"
+  },
+  {
+    "from": "no-reply@carrental.com",
+    "subject": "Your upcoming reservation details",
+    "body": "Here are the details for your upcoming car rental. Review them carefully and contact us if you have any questions.\n\nWe look forward to serving you and wish you a safe trip.",
+    "summary": "This email provides details for your upcoming car rental reservation and asks you to review them.",
+    "category": "Reservation"
+  },
+  {
+    "from": "support@home-security.com",
+    "subject": "Motion detected in your backyard",
+    "body": "Your home security system detected motion in your backyard. Check the live feed or review the recorded clip.\n\nIf this was unexpected, ensure your property is secure.",
+    "summary": "Your home security system detected motion in your backyard and suggests checking the live feed or recorded clip.",
+    "category": "Security Alert"
+  },
+  {
+    "from": "newsletter@booklovers.com",
+    "subject": "New releases in your favorite genre this month",
+    "body": "Discover the hottest new book releases in your preferred genre. Find your next great read today!\n\nHappy reading from all of us at BookLovers.",
+    "summary": "This newsletter highlights new book releases in your preferred genre for the month.",
+    "category": "Book releases"
+  },
+  {
+    "from": "no-reply@eventtickets.com",
+    "subject": "Your concert tickets are attached",
+    "body": "Your e-tickets for the upcoming concert are attached. Save them or print them out for entry.\n\nGet ready for an amazing night of music and fun!",
+    "summary": "Your e-tickets for the upcoming concert are attached and should be saved or printed for entry.",
+    "category": "Tickets"
+  },
+  {
+    "from": "support@fitness-tracker.com",
+    "subject": "Weekly fitness report and insights",
+    "body": "Here's your weekly fitness report. See your progress and get personalized tips to improve your workouts.\n\nKeep up the great work and stay motivated!",
+    "summary": "This email provides your weekly fitness report, highlighting your progress and offering personalized tips for improvement.",
+    "category": "Fitness Report"
+  },
+  {
+    "from": "team@crowdfunding.com",
+    "subject": "Your backed project has reached its goal",
+    "body": "Great news! The project you supported has successfully reached its funding goal. Thank you for your contribution.\n\nStay tuned for updates from the creators.",
+    "summary": "The crowdfunding project you backed has successfully reached its funding goal.",
+    "category": "Project Update"
+  },
+  {
+    "from": "no-reply@realestate.com",
+    "subject": "New property listings matching your criteria",
+    "body": "We found several properties that match your search criteria. Take a look and schedule a viewing.\n\nYour dream home might be just a click away.",
+    "summary": "This email informs you about new property listings that match your search criteria and encourages you to view them.",
+    "category": "Listing Alert"
+  },
+  {
+    "from": "support@language-learning.com",
+    "subject": "Your daily vocabulary challenge",
+    "body": "Here\u00e2\u20ac\u2122s your daily vocabulary challenge to help you learn faster. Practice these words and track your progress.\n\nConsistency is key to mastering a new language.",
+    "summary": "This email from Language Learning Support provides a daily vocabulary challenge to help the user learn faster through consistent practice.",
+    "category": "Daily Challenge"
+  },
+  {
+    "from": "billing@vpn-service.com",
+    "subject": "Your subscription is expiring soon",
+    "body": "Your VPN subscription will expire in 7 days. Renew now to continue enjoying secure and private browsing.\n\nDon\u00e2\u20ac\u2122t risk your online privacy\u00e2\u20ac\u201dstay protected.",
+    "summary": "This email notifies you that your VPN subscription is expiring in 7 days and encourages you to renew it.",
+    "category": "Renewal"
+  },
+  {
+    "from": "no-reply@charity.org",
+    "subject": "Your donation made a difference",
+    "body": "Thanks to your generous donation, we\u00e2\u20ac\u2122ve been able to make a real impact. Here\u00e2\u20ac\u2122s how your contribution helped.\n\nThank you for supporting our cause.",
+    "summary": "The email is a thank you note from a charity acknowledging a donation and explaining its impact.",
+    "category": "Donation"
+  },
+  {
+    "from": "support@smartthermostat.com",
+    "subject": "Energy-saving tips for this season",
+    "body": "With the changing weather, here are some tips to optimize your smart thermostat for energy savings.\n\nReduce your bills while staying comfortable at home.",
+    "summary": "This email from Smart Thermostat support provides tips on optimizing your device for energy savings and comfort as the weather changes.",
+    "category": "Energy Tips"
+  },
+  {
+    "from": "team@stocktrading.com",
+    "subject": "Market volatility alert: Protect your investments",
+    "body": "Due to recent market volatility, consider reviewing your portfolio and adjusting your strategy if needed.\n\nStay informed and make smart investment decisions.",
+    "summary": "The email alerts the recipient about recent market volatility and advises them to review their investment portfolio and strategy.",
+    "category": "Finance"
+  },
+  {
+    "from": "no-reply@datingapp.com",
+    "subject": "New matches waiting for your response",
+    "body": "You have new potential matches who are interested in connecting. Don\u00e2\u20ac\u2122t keep them waiting\u00e2\u20ac\u201dreply now!\n\nYour next great connection could be just a message away.",
+    "summary": "The email notifies you that you have new potential matches on a dating app and encourages you to respond to them.",
+    "category": "Dating"
+  },
+  {
+    "from": "support@homecleaning.com",
+    "subject": "Your cleaning appointment confirmation",
+    "body": "Your upcoming cleaning appointment has been confirmed. We\u00e2\u20ac\u2122ll see you at the scheduled time.\n\nEnjoy a spotless home without the hassle.",
+    "summary": "The email confirms your upcoming home cleaning appointment.",
+    "category": "Appointment"
+  },
+  {
+    "from": "newsletter@petcare.com",
+    "subject": "Tips to keep your pet healthy this season",
+    "body": "Seasonal changes can affect your pet\u00e2\u20ac\u2122s health. Here are some tips to keep them happy and healthy.\n\nYour furry friend deserves the best care.",
+    "summary": "This email from PetCare.com provides tips on keeping your pet healthy during seasonal changes.",
+    "category": "Pet Care"
+  },
+  {
+    "from": "no-reply@freelanceplatform.com",
+    "subject": "New project proposal received",
+    "body": "A client has sent you a new project proposal. Review the details and respond to secure the job.\n\nGrow your freelance career with exciting opportunities.",
+    "summary": "This email notifies you that a client has sent a new project proposal through a freelance platform and you should review and respond to secure it.",
+    "category": "Project Offer"
+  },
+  {
+    "from": "support@bike-rental.com",
+    "subject": "Your rental period is ending soon",
+    "body": "Your bike rental period is about to expire. Return the bike on time to avoid additional charges.\n\nThank you for choosing our service.",
+    "summary": "The email notifies you that your bike rental period is ending soon and you should return the bike on time to avoid extra charges.",
+    "category": "Rental reminder"
+  },
+  {
+    "from": "team@ai-newsletter.com",
+    "subject": "Breakthroughs in AI you should know about",
+    "body": "The world of AI is evolving rapidly. Here are the latest breakthroughs and what they mean for the future.\n\nStay ahead with cutting-edge insights.",
+    "summary": "This email introduces a newsletter discussing recent breakthroughs and future implications in AI.",
+    "category": "AI News"
+  },
+  {
+    "from": "no-reply@luxury-watches.com",
+    "subject": "Exclusive limited-time offer on premium watches",
+    "body": "As a valued customer, enjoy an exclusive discount on our premium watch collection. Shop now before stocks run out.\n\nElevate your style with timeless elegance.",
+    "summary": "Luxury Watches is offering valued customers a limited-time exclusive discount on their premium watch collection.",
+    "category": "Promotions"
+  },
+  {
+    "from": "support@smart-lighting.com",
+    "subject": "New lighting presets available for your home",
+    "body": "We\u00e2\u20ac\u2122ve added new smart lighting presets to enhance your home ambiance. Try them out today!\n\nCreate the perfect mood with just a tap.",
+    "summary": "This email announces that new smart lighting presets are available to enhance your home's ambiance and mood.",
+    "category": "Updates"
+  },
+  {
+    "from": "newsletter@outdoor-gear.com",
+    "subject": "Essential gear for your next adventure",
+    "body": "Planning an outdoor trip? Here\u00e2\u20ac\u2122s a list of must-have gear to ensure a safe and enjoyable experience.\n\nGet ready to explore the great outdoors.",
+    "summary": "The email introduces a list of essential gear recommended for planning an outdoor trip.",
+    "category": "Outdoor Gear"
+  },
+  {
+    "from": "no-reply@online-pharmacy.com",
+    "subject": "Your prescription refill reminder",
+    "body": "It\u00e2\u20ac\u2122s time to refill your prescription. Order now to avoid running out of your medication.\n\nYour health is our priority.",
+    "summary": "This email from an online pharmacy reminds the recipient that it is time to refill their prescription and encourages them to order now.",
+    "category": "Prescription Refill"
+  },
+  {
+    "from": "support@virtual-reality.com",
+    "subject": "New VR games released this week",
+    "body": "Immerse yourself in the latest virtual reality games. Check out the new releases and start playing!\n\nThe future of gaming is here.",
+    "summary": "The email announces the release of new virtual reality games this week and encourages users to play them.",
+    "category": "VR Games"
+  },
+  {
+    "from": "team@organic-food.com",
+    "subject": "Seasonal organic produce now available",
+    "body": "Fresh, seasonal organic produce is now in stock. Order now for delivery straight to your door.\n\nEat healthy and support sustainable farming.",
+    "summary": "Fresh, seasonal organic produce is now in stock and available for delivery.",
+    "category": "Produce"
+  },
+  {
+    "from": "no-reply@car-sharing.com",
+    "subject": "Your ride summary and invoice",
+    "body": "Here\u00e2\u20ac\u2122s the summary of your recent ride along with the invoice. Thank you for choosing our service.\n\nWe hope to see you again soon.",
+    "summary": "This email provides a summary and invoice for your recent car-sharing ride.",
+    "category": "Invoice"
+  },
+  {
+    "from": "support@smart-plug.com",
+    "subject": "Maximize your smart plug\u00e2\u20ac\u2122s potential",
+    "body": "Learn how to get the most out of your smart plug with these useful tips and automation ideas.\n\nMake your home smarter and more efficient.",
+    "summary": "Learn how to maximize your smart plug's potential with useful tips and automation ideas to make your home smarter and more efficient.",
+    "category": "Tips"
+  },
+  {
+    "from": "newsletter@photography.com",
+    "subject": "Photography tips to improve your skills",
+    "body": "Whether you\u00e2\u20ac\u2122re a beginner or a pro, these photography tips will help you capture stunning images.\n\nKeep shooting and refining your craft.",
+    "summary": "This email offers photography tips for improving skills, suitable for all levels, and encourages continuous practice.",
+    "category": "Photography"
+  },
+  {
+    "from": "no-reply@online-consultation.com",
+    "subject": "Your upcoming doctor\u00e2\u20ac\u2122s appointment reminder",
+    "body": "This is a reminder for your scheduled online consultation. Ensure you\u00e2\u20ac\u2122re available at the appointed time.\n\nTake care of your health with ease.",
+    "summary": "This email is a reminder for your scheduled online doctor's consultation.",
+    "category": "Appointment Reminder"
+  }
+]
