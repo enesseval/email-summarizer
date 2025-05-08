@@ -4,7 +4,7 @@ import pandas as pd
 import google.generativeai as genai
 
 # 🔑 Gemini API anahtarını buraya gir
-genai.configure(api_key="YOUR_GEMINI_API_KEY")  # kendi anahtarını gir
+genai.configure(api_key="AIzaSyAkw3kdXFNpOB22wu0Zgn13jUqLV386W0w")  # kendi anahtarını gir
 model = genai.GenerativeModel("gemini-2.5-flash-preview-04-17")
 
 # 📄 Sayfa ayarları
