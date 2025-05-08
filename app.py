@@ -64,7 +64,15 @@ if uploaded_file:
         
         else: 
             st.info("✅ File successfully loaded. Processing emails with Gemini...")
-            process_email = [process_email(email) for email in raw_data]
+
+            progress_bar = st.progress(0)
+            total = len(raw_data)
+            processed_emails = []
+
+            for i, email in enumerate(raw_data):
+                result = process_email(email)
+                processed_emails.append(result)
+                progress_bar.progress((i + 1) / total)
 
             df = pd.DataFrame(process_email)
 
@@ -78,6 +86,7 @@ if uploaded_file:
             st.dataframe(filtered_df[["from", "subject", "category", "summary"]], use_container_width=True)
 
             # dwnmloadeble files
+            st.subheader("📥 Download Results")
             st.download_button("⬇️ Download as CSV", filtered_df.to_csv(index=False), "emails.csv", "text/csv")
             st.download_button("⬇️ Download as JSON", json.dumps(process_email, indent=2), "emails.json", "application/json")
 
