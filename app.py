@@ -3,20 +3,22 @@ import json
 import pandas as pd
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyATQut1CZVFBGjPewlRMckCda4yhISMgmE")
+# 🔑 Gemini API anahtarını buraya gir
+genai.configure(api_key="YOUR_GEMINI_API_KEY")  # kendi anahtarını gir
 model = genai.GenerativeModel("gemini-2.5-flash-preview-04-17")
 
-st.set_page_config(page_title="AI Email Summarizer",layout="wide")
+# 📄 Sayfa ayarları
+st.set_page_config(page_title="AI Email Summarizer", layout="wide")
 st.title("📧 AI-Powered Email Summarizer & Categorizer")
 
-# check format of .json file
+# ✅ JSON formatını kontrol eden fonksiyon
 def validate_email_data(data):
     return all(
         "from" in email and "subject" in email and "body" in email
         for email in data
     )
 
-# process emails
+# 🧠 E-postaları işleyen fonksiyon
 def process_email(email):
     prompt = f"""
 Email:
@@ -51,8 +53,8 @@ Return your answer in this JSON format:
             "summary": f"Error: {str(e)}",
             "category": "Error"
         }
-    
-# load email file
+
+# 📤 Dosya yükleme
 uploaded_file = st.file_uploader("Upload a JSON file containing emails", type="json")
 
 if uploaded_file:
@@ -60,38 +62,38 @@ if uploaded_file:
         raw_data = json.load(uploaded_file)
 
         if not validate_email_data(raw_data):
-             st.error("❌ JSON format is invalid. Each item must include 'from', 'subject', and 'body'.")
+            st.error("❌ JSON format is invalid. Each item must include 'from', 'subject', and 'body'.")
         
         else: 
             st.info("✅ File successfully loaded. Processing emails with Gemini...")
 
+            # 🔄 İlerleme çubuğu
             progress_bar = st.progress(0)
             total = len(raw_data)
             processed_emails = []
 
             for i, email in enumerate(raw_data):
-                result = processed_emails(email)
+                result = process_email(email)  # 🔧 düzeltildi
                 processed_emails.append(result)
                 progress_bar.progress((i + 1) / total)
 
             df = pd.DataFrame(processed_emails)
 
-            # category filter
+            # 🔍 Kategori filtresi
             categories = df["category"].unique().tolist()
             selected = st.multiselect("Filter by Category", options=categories, default=categories)
 
-            filtered_df =  df[df["category"].isin(selected)]
+            filtered_df = df[df["category"].isin(selected)]
 
-            # table view
+            # 🗂️ Tablo görünümü
             st.dataframe(filtered_df[["from", "subject", "category", "summary"]], use_container_width=True)
 
-            # dwnmloadeble files
+            # 📥 İndirilebilir dosyalar
             st.subheader("📥 Download Results")
             st.download_button("⬇️ Download as CSV", filtered_df.to_csv(index=False), "emails.csv", "text/csv")
-            st.download_button("⬇️ Download as JSON", json.dumps(process_email, indent=2), "emails.json", "application/json")
+            st.download_button("⬇️ Download as JSON", json.dumps(processed_emails, indent=2), "emails.json", "application/json")
 
     except Exception as e:
-        st.error(f"❌ Failed to read JSON: {str(e)}"    )
-
+        st.error(f"❌ Failed to read JSON: {str(e)}")
 else:
-    st.info("📄 Please upload a .json file in the format: from, subject, body.")
+    st.info("📄 Please upload a `.json` file in this format:\n\n[\n  {{\"from\": \"...\", \"subject\": \"...\", \"body\": \"...\"}},\n  ...\n]")
