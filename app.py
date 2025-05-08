@@ -70,11 +70,11 @@ if uploaded_file:
             processed_emails = []
 
             for i, email in enumerate(raw_data):
-                result = process_email(email)
+                result = processed_emails(email)
                 processed_emails.append(result)
                 progress_bar.progress((i + 1) / total)
 
-            df = pd.DataFrame(process_email)
+            df = pd.DataFrame(processed_emails)
 
             # category filter
             categories = df["category"].unique().tolist()
